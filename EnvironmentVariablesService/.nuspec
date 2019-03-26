@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>EnvironmentVariablesService</id>
+    <version>0.0.1</version>
+    <authors>Artem Sakhatskiy</authors>
+    <owners>Artem Sakhatskiy</owners>
+    <!--licenseUrl>https://github.com/DarthFubuMVC/bottles/raw/master/license.txt</licenseUrl-->
+    <!--projectUrl>http://fubumvc.com</projectUrl-->
+    <!--iconUrl>https://github.com/DarthFubuMVC/bottles/raw/master/doc/logo/FubuMVC_Logo_package_icon.png</iconUrl-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ASP.NET Core ServiceCollection extension for easy usage of env variables.</description>
+    <tags>asp.net core, env</tags>
+    <dependencies>
+      <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="2.2.0" />
+      <dependency id="NETStandard.Library" version="2.0.3" />
+    </dependencies>
+  </metadata>
+</package>
